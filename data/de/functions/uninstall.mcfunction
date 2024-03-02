@@ -4,7 +4,8 @@
 #         Please don't claim this as your own work!        #
 # ======================================================== #
 
-tellraw @a [{"text":"Datapack: ","color":"green"},{"text":"DeathEffects","color":"gold"},{"text":" started!","color":"green"},{"text":" (v0.2)","color":"gold"}]
+tellraw @a [{"text":"Datapack: ","color":"green"},{"text":"DeathEffects","color":"gold"},{"text":" uninstalled!","color":"red"}]
 
-#create scoreboards
-scoreboard objectives add de.deathtime dummy
+#remove scoreboards
+scoreboard objectives remove de.deathtime
+#end#
